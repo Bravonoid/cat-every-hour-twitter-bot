@@ -1,0 +1,22 @@
+{
+	"name": "fox-daily-bot",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"type": "module",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"start": "node index.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"axios": "^0.26.1",
+		"cron": "^1.8.2",
+		"dotenv": "^16.0.0",
+		"express": "^4.17.3",
+		"file-type": "^17.1.1",
+		"twitter-api-v2": "^1.12.0"
+	}
+}
